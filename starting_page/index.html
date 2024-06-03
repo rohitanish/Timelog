@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+  </head>
+  <body>
+    <div class="starting-pagelogin-teacher">
+      <div class="starting-pagelogin-teacher-child"></div>
+      <div class="frame">
+        <header class="frame1">
+          <div class="logo">
+            <img class="logo-child" alt="" src="./public/group-1.svg" />
+
+            <b class="timelog">Timelog</b>
+          </div>
+        </header>
+        <section class="frame2">
+          <div class="frame-parent">
+            <div class="sign-in-to-parent">
+              <h1 class="sign-in-to">Sign in to</h1>
+              <h1 class="timelog1">Timelog</h1>
+            </div>
+            <p class="effortlessly-manage-your">
+              Effortlessly manage your schedule with our web-based application,
+              Timelog Experience the ease of automatic timetable generation at
+              your fingertips.
+            </p>
+          </div>
+        </section>
+        <section class="frame3">
+          <img class="group-image-icon" alt="" src="./public/group-image.svg" />
+        </section>
+        <nav class="frame4">
+          <nav class="sign-in-page">
+            <div class="welcome-to-timelog-parent">
+              <div class="welcome-to-timelog-container">
+                <span>Welcome to </span>
+                <span class="timelog2">Timelog</span>
+              </div>
+              <button class="no-account-container" id="noAccount">
+                <p class="no-account">No Account ?</p>
+                <p class="sign-up">Sign up</p>
+              </button>
+            </div>
+            <div class="sign-in">Sign in</div>
+            <div class="username-and-email">
+              <h3 class="enter-your-username">
+                Enter your username or email address
+              </h3>
+              <input class="user-data" type="text" style="font-size: 25px;" placeholder="Enter your username"/>
+
+             
+              
+            </div>
+            <div class="password">
+              <h2 class="enter-your-password">Enter your Password</h2>
+              <input class="password-data" type="password" style="font-size: 25px;" placeholder="Enter your Password" />
+              <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
+          </div>
+            <button class="forgot-password">Forgot Password</button>
+            <button class="sign-in1" id="signIn">
+              <h3 class="sign-in2">Sign in</h3>
+            </button>
+          </nav>
+        </nav>
+        <div class="frame5">
+          <img
+            class="teacher-and-student"
+            alt=""
+            src="./public/teacher-and-student.svg"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var noAccount = document.getElementById("noAccount");
+      if (noAccount) {
+        noAccount.addEventListener("click", function (e) {
+          // Please sync "Sign Up Page teacher" to the project
+        });
+      }
+      
+      var signIn = document.getElementById("signIn");
+      if (signIn) {
+        signIn.addEventListener("click", function (e) {
+          // Please sync "Teacher Page" to the project
+        });
+      }
+      const togglePassword = document.querySelector('#togglePassword');
+const password = document.querySelector('.password-data');
+
+togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
+});
+
+
+
+
+
+ 
+
+      </script>
+  </body>
+</html>

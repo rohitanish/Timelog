@@ -1,0 +1,234 @@
+.button-text {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.main-action-button {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-royalblue);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.action-buttons {
+  align-self: stretch;
+  background-color: var(--light-selected);
+  height: 156px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-0);
+  box-sizing: border-box;
+}
+.frame-icon,
+.frame4 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame4 {
+  top: -270px;
+  left: -74px;
+  width: 625px;
+  height: 1620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frame-icon {
+  top: 0;
+  left: 0;
+  width: 1344px;
+  height: 1057px;
+  object-fit: cover;
+}
+.text-field {
+  border: 0;
+  outline: 0;
+  background-color: var(--input-input-background-lightmode);
+  width: 571.2px;
+  position: relative;
+  border-radius: 11.71px;
+  border-bottom: 2.9px solid var(--color-black);
+  box-sizing: border-box;
+  height: 85.3px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(-0.01deg);
+}
+.frame7 {
+  position: absolute;
+  top: 176.5px;
+  left: 3px;
+  width: 1338.8px;
+  height: 83.8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.days-per-week {
+  width: 385px;
+  position: relative;
+  display: inline-block;
+  height: 52px;
+  flex-shrink: 0;
+}
+.frame8,
+.frame9 {
+  position: absolute;
+  top: 125px;
+  left: 3px;
+  width: 1338.8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame9 {
+  top: 365.5px;
+  left: 5.2px;
+  width: 1334.4px;
+  height: 83.8px;
+}
+.lectures-per-day {
+  width: 384px;
+  position: relative;
+  display: inline-block;
+  height: 51px;
+  flex-shrink: 0;
+}
+.frame10,
+.frame11 {
+  position: absolute;
+  top: 314px;
+  left: 4px;
+  width: 1336.8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame11 {
+  top: 540.8px;
+  left: 11.7px;
+  width: 1321.4px;
+  height: 83.8px;
+}
+.no-of-classes {
+  width: 384px;
+  position: relative;
+  display: inline-block;
+  height: 52px;
+  flex-shrink: 0;
+}
+.frame12,
+.frame13 {
+  position: absolute;
+  top: 489px;
+  left: 11px;
+  width: 1322.8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame13 {
+  top: 764.1px;
+  left: 12.8px;
+  width: 1319.2px;
+  height: 83.8px;
+}
+.no-of-subjects {
+  width: 386px;
+  position: relative;
+  display: inline-block;
+  height: 51px;
+  flex-shrink: 0;
+}
+.frame14 {
+  position: absolute;
+  top: 713px;
+  left: 11px;
+  width: 1322.8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.button-text1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--light-selected);
+  text-align: left;
+}
+.frame15,
+.main-action-button1 {
+  display: flex;
+  justify-content: center;
+}
+.main-action-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-royalblue);
+  width: 583px;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  align-items: center;
+}
+.frame15 {
+  position: absolute;
+  top: 948px;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame15,
+.frame5,
+.frame6 {
+  width: 1344.8px;
+  overflow: hidden;
+}
+.frame6 {
+  position: relative;
+  height: 1057.9px;
+  flex-shrink: 0;
+}
+.frame5 {
+  position: absolute;
+  top: -1px;
+  left: 667px;
+  height: 1082px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray);
+}
+.admin-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--light-selected);
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--light-selected);
+  font-family: var(--font-poppins);
+}
+

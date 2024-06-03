@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-ubuntu: Ubuntu;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dodgerblue-100: #4285f4;
+  --color-dodgerblue-200: #0089ed;
+  --color-gray-100: #808080;
+  --color-black: #000;
+
+  /* Paddings */
+  --padding-11xs: 2px;
+
+  /* Border radiuses */
+  --br-4xs: 9px;
+}

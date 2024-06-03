@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-ubuntu: Ubuntu;
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkgray-100: #999;
+  --color-gray-100: #808080;
+  --color-dodgerblue-100: #4285f4;
+  --color-dodgerblue-200: #0089ed;
+
+  /* Gaps */
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-12xs-3: 0.3px;
+  --padding-0: 0px;
+  --padding-11xs: 2px;
+
+  /* Border radiuses */
+  --br-4xs: 9px;
+}

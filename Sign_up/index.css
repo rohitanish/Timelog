@@ -1,0 +1,402 @@
+.logo-icon {
+  position: relative;
+  width: 51.9px;
+  height: 48.5px;
+  object-fit: cover;
+}
+.timelog {
+  position: relative;
+  display: inline-block;
+  width: 208.3px;
+  height: 36.1px;
+  flex-shrink: 0;
+}
+.timelog-logo {
+  position: absolute;
+  top: 16px;
+  left: 13px;
+  width: 269px;
+  height: 48.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-family: var(--font-ubuntu);
+}
+.password {
+  position: absolute;
+  top: 0;
+  left: 1.6px;
+  font-weight: 500;
+  display: inline-block;
+  width: 188.7px;
+  height: 25.4px;
+}
+.password-field-child {
+  position: absolute;
+  top: 78.6px;
+  left: 1.6px;
+  background-color: var(--color-darkgray-100);
+  width: 674.7px;
+  height: 2.5px;
+}
+.padlock-1-icon {
+  position: relative;
+  width: 26.7px;
+  height: 21.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.padlock-1-wrapper {
+  position: absolute;
+  top: 35.5px;
+  left: 0;
+  width: 333.5px;
+  height: 30.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.000014313554856926203px 0.000017199432477355003px var(--padding-0);
+  box-sizing: border-box;
+}
+.group-icon {
+  position: absolute;
+  height: 86.44%;
+  width: 100%;
+  top: 6.78%;
+  right: 0;
+  bottom: 6.78%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.enter,
+.enter1,
+.invisible-1 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.invisible-1 {
+  cursor: pointer;
+  padding: 0;
+  top: 49.4px;
+  left: 654.3px;
+  width: 22px;
+  height: 17.7px;
+  overflow: hidden;
+}
+.enter,
+.enter1 {
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  top: 35px;
+  left: 51px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 448px;
+  height: 31px;
+}
+.enter1 {
+  left: 52px;
+}
+.password-field,
+.teachers-code,
+.user-name {
+  position: absolute;
+  top: 571px;
+  left: -8px;
+  width: 676.3px;
+  height: 81.1px;
+}
+.teachers-code,
+.user-name {
+  top: 723px;
+  left: -7px;
+}
+.user-name {
+  margin: 0;
+  top: 0;
+  left: 1.6px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 188.7px;
+  height: 25.4px;
+}
+.user-1-icon {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.invisible-11 {
+  position: absolute;
+  top: 49.4px;
+  left: 654.3px;
+  width: 22px;
+  height: 17.7px;
+  overflow: hidden;
+}
+.user-fielld {
+  position: absolute;
+  top: 404px;
+  left: -8px;
+  width: 676.3px;
+  height: 81.1px;
+}
+.designation-field-item,
+.icon-right {
+  position: absolute;
+  top: 35.5px;
+  left: 0;
+  width: 333.5px;
+  height: 30.4px;
+}
+.icon-right {
+  top: 35px;
+  left: 637px;
+  background-color: transparent;
+  border: 0;
+  width: 29px;
+  height: 29px;
+  overflow: hidden;
+}
+.executive-1-icon {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 34px;
+  height: 33px;
+  object-fit: cover;
+}
+.enter5 {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  position: absolute;
+  top: 38px;
+  left: 51px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 448px;
+  height: 31px;
+}
+.designation-field {
+  position: absolute;
+  top: 246px;
+  left: -9px;
+  width: 676.3px;
+  height: 81.1px;
+}
+.register {
+  position: relative;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 110.1px;
+  height: 33px;
+  flex-shrink: 0;
+}
+.register-button {
+  cursor: pointer;
+  border: 0;
+  padding: 16.478744506835938px 281.52490234375px;
+  background-color: #0c21c1;
+  position: absolute;
+  top: 875px;
+  left: 11.5px;
+  border-radius: 32px;
+  box-shadow: 0 4px 26px rgba(0, 0, 0, 0.25);
+  width: 674.7px;
+  height: 67.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.click-on {
+  color: var(--color-black);
+}
+.login-page {
+  color: #35488b;
+}
+.click-on-login-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  text-align: left;
+  display: inline-block;
+  width: 651px;
+  height: 81px;
+  flex-shrink: 0;
+}
+.click-on-login-page-if-you-alr-wrapper,
+.sign-up-header {
+  width: 661.3px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) 0.28887939453125px;
+  box-sizing: border-box;
+}
+.sign-up-header {
+  position: absolute;
+  top: 76px;
+  left: 3.5px;
+  height: 170px;
+}
+.sign-up {
+  position: absolute;
+  top: 9px;
+  left: 1.5px;
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  width: 176.1px;
+  height: 57px;
+}
+.sign-up-frame {
+  position: absolute;
+  top: 101px;
+  left: 102px;
+  width: 686.2px;
+  height: 942.2px;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-100);
+}
+.for-a-seamless,
+.sign-up-to {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 419.2px;
+  height: 69px;
+  flex-shrink: 0;
+}
+.for-a-seamless {
+  font-size: 20px;
+  font-weight: 300;
+  width: 438px;
+  height: 34.5px;
+}
+.sign-up-to-timelog-parent {
+  position: absolute;
+  top: 695.9px;
+  left: 0;
+  width: 438px;
+  height: 108.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.saly-10-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-parent,
+.saly-10 {
+  position: absolute;
+  top: 0;
+  left: 27.7px;
+  width: 576.3px;
+  height: 599.2px;
+}
+.frame-parent {
+  top: 73.6px;
+  left: 108.4px;
+  width: 603.9px;
+  height: 804px;
+}
+.div,
+.phone-call-1-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.phone-call-1-icon {
+  width: 15.5px;
+  height: 16.1px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.div {
+  display: inline-block;
+  width: 140.5px;
+  height: 26.5px;
+}
+.phone-call-1-parent {
+  position: absolute;
+  top: 27.6px;
+  left: 625px;
+  width: 162.6px;
+  height: 26.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.00010557432688074186px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  font-size: 15px;
+}
+.information-graphics {
+  position: absolute;
+  top: 64px;
+  left: 1007px;
+  border-radius: 15px;
+  background-color: #000842;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 813px;
+  height: 988px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+}
+.sign-up-page-teacher {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 22.7px;
+  color: #020202;
+  font-family: var(--font-poppins);
+}
